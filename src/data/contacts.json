@@ -1,0 +1,16 @@
+[
+  {
+    "id": "id-1",
+    "label": "Phone",
+    "icon": "https://www.flaticon.com/svg/static/icons/svg/3178/3178496.svg",
+    "link": "tel:380937404228",
+    "text": "+38 093 740 42 28"
+  },
+  {
+    "id": "id-2",
+    "label": "E-mail",
+    "icon": "https://www.flaticon.com/authors/pixel-perfect",
+    "link": "mailto:spekava@gmail.com",
+    "text": "spekava@gmail.com"
+  }
+]
