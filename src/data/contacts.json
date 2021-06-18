@@ -9,8 +9,36 @@
   {
     "id": "id-2",
     "label": "E-mail",
-    "icon": "https://www.flaticon.com/authors/pixel-perfect",
+    "icon": "https://www.flaticon.com/svg/static/icons/svg/3178/3178496.svg",
     "link": "mailto:spekava@gmail.com",
     "text": "spekava@gmail.com"
+  },
+  {
+    "id": "id-3",
+    "label": "LinkedIn",
+    "icon": "https://www.flaticon.com/svg/static/icons/svg/3178/3178496.svg",
+    "link": "https://www.linkedin.com/in/vitalii-speka/",
+    "text": "LinkedIn"
+  },
+  {
+    "id": "id-4",
+    "label": "GitHab",
+    "icon": "https://www.flaticon.com/svg/static/icons/svg/3178/3178496.svg",
+    "link": "https://github.com/vitalii-speka",
+    "text": "GitHab"
+  },
+  {
+    "id": "id-5",
+    "label": "Telegram",
+    "icon": "https://www.flaticon.com/svg/static/icons/svg/3178/3178496.svg",
+    "link": "https://t.me/VitalikSpeka",
+    "text": "Telegram"
+  },
+  {
+    "id": "id-6",
+    "label": "Viber",
+    "icon": "https://www.flaticon.com/svg/static/icons/svg/3178/3178496.svg",
+    "link": "viber://chat?number=%2B380937404228",
+    "text": "Viber"
   }
 ]
