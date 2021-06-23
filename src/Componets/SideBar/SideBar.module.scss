@@ -1,1 +1,8 @@
 @import '../../Utils/utils.scss';
+
+.SideBar__foto {
+  @extend %img-styles;
+
+  width: 400px;
+  height: 500px;
+}

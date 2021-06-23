@@ -5,14 +5,18 @@ import Contacts from '../Contacts/Contacts';
 const SideBar = ({ contacts }) => {
   return (
     <aside className={style.sideBar}>
-      <img src={myFoto} alt="foto Vitalii Speka" className={style.foto} />
+      <img
+        src={myFoto}
+        alt="foto Vitalii Speka"
+        className={style.SideBar__foto}
+      />
       <div className={style.section}>
         <h3>Contacts</h3>
         <ul>
           {contacts.map(({ id, label, link, text, icon }) => (
             <Contacts
               key={id}
-              label={label}
+              // label={label}
               link={link}
               text={text}
               icon={icon}

@@ -2,42 +2,42 @@
   {
     "id": "id-1",
     "label": "Phone",
-    "icon": "https://www.flaticon.com/svg/static/icons/svg/3178/3178496.svg",
+    "icon": "icon-phone",
     "link": "tel:380937404228",
     "text": "+38 093 740 42 28"
   },
   {
     "id": "id-2",
     "label": "E-mail",
-    "icon": "https://www.flaticon.com/svg/static/icons/svg/3178/3178496.svg",
+    "icon": "icon-gmail",
     "link": "mailto:spekava@gmail.com",
     "text": "spekava@gmail.com"
   },
   {
     "id": "id-3",
     "label": "LinkedIn",
-    "icon": "https://www.flaticon.com/svg/static/icons/svg/3178/3178496.svg",
+    "icon": "icon-linkedin",
     "link": "https://www.linkedin.com/in/vitalii-speka/",
     "text": "LinkedIn"
   },
   {
     "id": "id-4",
     "label": "GitHab",
-    "icon": "https://www.flaticon.com/svg/static/icons/svg/3178/3178496.svg",
+    "icon": "icon-github",
     "link": "https://github.com/vitalii-speka",
     "text": "GitHab"
   },
   {
     "id": "id-5",
     "label": "Telegram",
-    "icon": "https://www.flaticon.com/svg/static/icons/svg/3178/3178496.svg",
+    "icon": "icon-telegram1",
     "link": "https://t.me/VitalikSpeka",
     "text": "Telegram"
   },
   {
     "id": "id-6",
     "label": "Viber",
-    "icon": "https://www.flaticon.com/svg/static/icons/svg/3178/3178496.svg",
+    "icon": "icon-viber",
     "link": "viber://chat?number=%2B380937404228",
     "text": "Viber"
   }

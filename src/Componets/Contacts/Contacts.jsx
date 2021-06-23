@@ -1,10 +1,13 @@
 import style from './Contacts.module.scss';
+import sprite from '../../image/symbol-defs.svg';
 
-function Contacts({ label, link, text, icon }) {
+function Contacts({ link, text, icon }) {
   return (
-    <li>
-      <img src={icon} alt={label} width="25" className={style.icon} />
-      <a className={style.contactsLink} href={link}>
+    <li className={style.Contacts__li}>
+      <a className={style.Contacts__link} href={link}>
+        <svg width="30" hanging="30" className={style.Contacts__icon}>
+          <use href={`${sprite}#${icon}`}></use>
+        </svg>
         {text}
       </a>
     </li>

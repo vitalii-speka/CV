@@ -1,1 +1,9 @@
 @import '../../Utils/utils.scss';
+
+.Contacts__li {
+  @extend %list-throw;
+}
+
+.Contacts__link {
+  @extend %link-throw;
+}
