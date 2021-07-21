@@ -1,0 +1,42 @@
+[
+  {
+    "id": "id-1",
+    "label": "HTML/CSS"
+  },
+  {
+    "id": "id-2",
+    "label": "JavaScript"
+  },
+  {
+    "id": "id-3",
+    "label": "Redux"
+  },
+  {
+    "id": "id-4",
+    "label": "GIT"
+  },
+  {
+    "id": "id-5",
+    "label": "Figma, Avacode"
+  },
+  {
+    "id": "id-6",
+    "label": "React.js"
+  },
+  {
+    "id": "id-7",
+    "label": "Node.js"
+  },
+  {
+    "id": "id-8",
+    "label": "REST API"
+  },
+  {
+    "id": "id-9",
+    "label": "WebPack"
+  },
+  {
+    "id": "id-10",
+    "label": "Parcel"
+  }
+]

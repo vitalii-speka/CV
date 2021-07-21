@@ -1,8 +1,12 @@
-function Langueages() {
+import style from './Langueages.module.scss';
+
+function Langueages({ label, text }) {
   return (
-    <div>
-      <h3>Langueages</h3>
-    </div>
+    <li className={style.Skills__li}>
+      <span className={style.Skills__span}>
+        {label} - {text}
+      </span>
+    </li>
   );
 }
 
