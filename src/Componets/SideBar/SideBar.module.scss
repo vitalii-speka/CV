@@ -1,8 +1,38 @@
 @import '../../Utils/utils.scss';
 
-.SideBar__foto {
-  @extend %img-styles;
+.body-collor {
+  background: #f5f7fa;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Montserrat;
+}
 
-  width: 400px;
-  height: 500px;
+.sideBar {
+  background: #1e2939;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.SideBar__foto {
+  // @extend %img-styles;
+
+  width: 370px;
+  // height: 500px;
+}
+
+.SideBar__section {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
+}
+
+.SideBar__title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 15px;
 }

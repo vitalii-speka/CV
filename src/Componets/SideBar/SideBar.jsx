@@ -13,39 +13,39 @@ const SideBar = ({ contacts, techSkills, softSkills, langueages }) => {
         alt="foto Vitalii Speka"
         className={style.SideBar__foto}
       />
-      <div className={style.section}>
-        <h3>Contacts</h3>
+      <div className={style.SideBar__section}>
+        <h3 className={style.SideBar__title}>Contacts</h3>
         <ul>
           {contacts.map(({ id, link, text, icon }) => (
             <Contacts key={id} link={link} text={text} icon={icon} />
           ))}
         </ul>
       </div>
-      <div className={style.section}>
-        <h3>Tech Skills</h3>
+      <div className={style.SideBar__section}>
+        <h3 className={style.SideBar__title}>Tech Skills</h3>
         <ul>
           {techSkills.map(({ id, label }) => (
             <Skills key={id} label={label} />
           ))}
         </ul>
       </div>
-      <div className={style.section}>
-        <h3>Soft Skills</h3>
+      <div className={style.SideBar__section}>
+        <h3 className={style.SideBar__title}>Soft Skills</h3>
         <ul>
           {softSkills.map(({ id, label }) => (
             <Skills key={id} label={label} />
           ))}
         </ul>
       </div>
-      <div className={style.section}>
-        <h3>Langueages</h3>
+      <div className={style.SideBar__section}>
+        <h3 className={style.SideBar__title}>Langueages</h3>
         <ul>
           {langueages.map(({ id, label, text }) => (
             <Langueages key={id} label={label} text={text} />
           ))}
         </ul>
       </div>
-      <div className={style.section}>
+      <div className={style.SideBar__section}>
         <a
           className={style.SideBar__link}
           href={cv}
