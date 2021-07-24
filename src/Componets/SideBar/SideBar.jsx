@@ -3,6 +3,7 @@ import myFoto from '../../image/ava.jpg';
 import Contacts from '../Contacts/Contacts';
 import Skills from '../Skills/Skills';
 import Langueages from '../Langueages/Langueages';
+import cv from '../../cv/CV_vitalii-speka-ver02.pdf';
 
 const SideBar = ({ contacts, techSkills, softSkills, langueages }) => {
   return (
@@ -44,8 +45,16 @@ const SideBar = ({ contacts, techSkills, softSkills, langueages }) => {
           ))}
         </ul>
       </div>
-      {/* <p>Vitalii Speka</p>
-      <p>FRONT-END DEVELOPER</p> */}
+      <div className={style.section}>
+        <a
+          className={style.SideBar__link}
+          href={cv}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Download CV
+        </a>
+      </div>
     </aside>
   );
 };
