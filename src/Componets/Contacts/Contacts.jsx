@@ -5,7 +5,7 @@ function Contacts({ link, text, icon }) {
   return (
     <li className={style.Contacts__li}>
       <a className={style.Contacts__link} href={link}>
-        <svg width="30" hanging="30" className={style.Contacts__icon}>
+        <svg className={style.Contacts__icon}>
           <use href={`${sprite}#${icon}`}></use>
         </svg>
         {text}

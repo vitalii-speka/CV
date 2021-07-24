@@ -15,7 +15,7 @@ const SideBar = ({ contacts, techSkills, softSkills, langueages }) => {
       />
       <div className={style.SideBar__section}>
         <h3 className={style.SideBar__title}>Contacts</h3>
-        <ul>
+        <ul className={style.SideBar__ul}>
           {contacts.map(({ id, link, text, icon }) => (
             <Contacts key={id} link={link} text={text} icon={icon} />
           ))}
@@ -23,7 +23,7 @@ const SideBar = ({ contacts, techSkills, softSkills, langueages }) => {
       </div>
       <div className={style.SideBar__section}>
         <h3 className={style.SideBar__title}>Tech Skills</h3>
-        <ul>
+        <ul className={style.SideBar__ul}>
           {techSkills.map(({ id, label }) => (
             <Skills key={id} label={label} />
           ))}
@@ -31,7 +31,7 @@ const SideBar = ({ contacts, techSkills, softSkills, langueages }) => {
       </div>
       <div className={style.SideBar__section}>
         <h3 className={style.SideBar__title}>Soft Skills</h3>
-        <ul>
+        <ul className={style.SideBar__ul}>
           {softSkills.map(({ id, label }) => (
             <Skills key={id} label={label} />
           ))}
@@ -39,7 +39,7 @@ const SideBar = ({ contacts, techSkills, softSkills, langueages }) => {
       </div>
       <div className={style.SideBar__section}>
         <h3 className={style.SideBar__title}>Langueages</h3>
-        <ul>
+        <ul className={style.SideBar__ul}>
           {langueages.map(({ id, label, text }) => (
             <Langueages key={id} label={label} text={text} />
           ))}

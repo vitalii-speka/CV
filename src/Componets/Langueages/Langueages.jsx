@@ -1,4 +1,4 @@
-import style from './Langueages.module.scss';
+// import style from '../Skills/';
 
 function Langueages({ label, text }) {
   return (

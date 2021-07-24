@@ -2,11 +2,12 @@
 
 .body-collor {
   background: #f5f7fa;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-family: Montserrat;
+
+  // padding-top: 40px;
+  // padding-bottom: 40px;
+  // padding-left: 20px;
+  // padding-right: 20px;
+  // font-family: Montserrat;;
 }
 
 .sideBar {
@@ -24,9 +25,10 @@
 }
 
 .SideBar__section {
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 60px;
+  @extend %container-styles;
+  // padding-left: 40px;
+  // padding-right: 40px;
+  // padding-top: 60px;
 }
 
 .SideBar__title {
@@ -35,4 +37,8 @@
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 15px;
+}
+
+.SideBar__ul {
+  @extend %link-throw;
 }
