@@ -6,6 +6,7 @@ import techSkills from './data/techSkills.json';
 import softSkills from './data/softSkills.json';
 import langueages from './data/langueages.json';
 import style from './App.module.scss';
+import AboytMe from './Componets/AboytMe/AboytMe.jsx';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         softSkills={softSkills}
         langueages={langueages}
       />
+      <AboytMe />
     </div>
   );
 }
