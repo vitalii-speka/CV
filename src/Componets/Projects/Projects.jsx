@@ -1,9 +1,23 @@
-function Summary() {
+import style from './Projects.module.scss';
+
+function Project({ label, link, tech }) {
   return (
-    <div>
-      <h3>Summary</h3>
-    </div>
+    <li className={style.Project__li}>
+      <a
+        className={style.Project__link}
+        href={link}
+        target="_blank"
+        rel="noreferrer"
+      >
+        {label}
+      </a>
+      <span class="dots">....................................</span>
+      <span>
+        <b>[</b> <span class="tech-name">{tech}</span>
+        <b> ]</b>
+      </span>
+    </li>
   );
 }
 
-export default Summary;
+export default Project;

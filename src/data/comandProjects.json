@@ -1,0 +1,20 @@
+[
+  {
+    "id": "id-1",
+    "label": "Questify",
+    "link": "https://cant-leave-without-node.netlify.app/",
+    "tech": "React.js, Node.js, Redux"
+  },
+  {
+    "id": "id-2",
+    "label": "OLX",
+    "link": "https://project6-olx.netlify.app/ ",
+    "tech": "React.js, Node.js, Redux"
+  },
+  {
+    "id": "id-3",
+    "label": "Barber shop",
+    "link": "https://vitalii-speka.github.io/barber-shop/",
+    "tech": "HTML, SCSS"
+  }
+]
