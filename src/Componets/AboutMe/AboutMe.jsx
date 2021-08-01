@@ -1,5 +1,6 @@
 import style from './AboutMe.module.scss';
 import Project from '../Projects/Projects';
+import Experience from '../Experience/Experience';
 
 function AboutMe({ comandProjects, ownProjects, experience }) {
   return (

@@ -9,6 +9,7 @@ import style from './App.module.scss';
 import AboytMe from './Componets/AboutMe/AboutMe.jsx';
 import comandProjects from './data/comandProjects.json';
 import ownProjects from './data/ownProjects.json';
+import experience from './data/experience.json';
 
 function App() {
   return (
@@ -20,7 +21,11 @@ function App() {
         softSkills={softSkills}
         langueages={langueages}
       />
-      <AboytMe comandProjects={comandProjects} ownProjects={ownProjects} />
+      <AboytMe
+        comandProjects={comandProjects}
+        ownProjects={ownProjects}
+        experience={experience}
+      />
     </div>
   );
 }

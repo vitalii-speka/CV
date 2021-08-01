@@ -1,0 +1,40 @@
+[
+  {
+    "id": "id-1",
+    "profession": "Auditor",
+    "company": "GROUP OF COMPANIES AIS",
+    "time": "JuL 2012 - PRES.",
+    "country": "Ukraine",
+    "duties": [
+      {
+        "id": "1",
+        "duty": "Conducting inspections of the state and organization of control over the financial and economic activities of enterprises."
+      },
+      {
+        "id": "2",
+        "duty": "Providing advice on the effective management of business processes and its further monitoring by employees."
+      }
+    ]
+  },
+  {
+    "id": "id-2",
+    "profession": "Deputy Head of Sales",
+    "company": "Company Bogdan Motors",
+    "time": "Jul 2010 - Jun 2012",
+    "country": "Ukraine",
+    "duties": [
+      {
+        "id": "1",
+        "duty": "Providing assistance in managing the department. "
+      },
+      {
+        "id": "2",
+        "duty": "Planning, development and coordination of various issues on the budget of the department."
+      },
+      {
+        "id": "3",
+        "duty": "Settlement of relations with contractors."
+      }
+    ]
+  }
+]
