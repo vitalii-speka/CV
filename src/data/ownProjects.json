@@ -1,0 +1,26 @@
+[
+  {
+    "id": "id-1",
+    "label": "Phonebook",
+    "link": "https://spevit-hw-09-phonebook.netlify.app/ ",
+    "tech": "React.js, Redux"
+  },
+  {
+    "id": "id-2",
+    "label": "Rest-API",
+    "link": "https://github.com/vitalii-speka/nodejs-homework-rest-api ",
+    "tech": "Node.js"
+  },
+  {
+    "id": "id-3",
+    "label": "Movies",
+    "link": "https://spevit-hm-04-movies.netlify.app/",
+    "tech": " React.js"
+  },
+  {
+    "id": "id-4",
+    "label": "Web Studio",
+    "link": "https://vitalii-speka.github.io/WebStudio/ ",
+    "tech": "HTML, SCSS"
+  }
+]

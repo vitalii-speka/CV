@@ -1,7 +1,7 @@
 @import '../../Utils/utils.scss';
 
 .AboutMe_li {
-  color: #ff6b08;
+  color: $active-color;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -9,7 +9,7 @@
 }
 
 .AboutMe__span {
-  color: #ffffff;
+  color: $white-color;
 }
 
 .AboutMe__container {
@@ -43,3 +43,16 @@
   line-height: 24px;
   margin-top: 0px;
 }
+
+// .AboutMe__section {
+// }
+// .AboutMe__title {
+// }
+// .AboutMe__subTitle {
+// }
+.AboutMe__typeProject {
+  color: $active-color;
+  margin-right: 5px;
+}
+// .AboutMe__list {
+// }

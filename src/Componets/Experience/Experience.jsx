@@ -1,6 +1,6 @@
-import style from './Projects.module.scss';
+import style from './Experience.module.scss';
 
-function Project({ label, link, tech }) {
+function Experience({ label, link, tech }) {
   return (
     <li className={style.Project__li}>
       <a
@@ -20,4 +20,4 @@ function Project({ label, link, tech }) {
   );
 }
 
-export default Project;
+export default Experience;
