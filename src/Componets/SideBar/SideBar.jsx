@@ -3,7 +3,7 @@ import myFoto from '../../image/ava.jpg';
 import Contacts from '../Contacts/Contacts';
 import Skills from '../Skills/Skills';
 import Langueages from '../Langueages/Langueages';
-import cv from '../../cv/CV_vitalii-speka-ver02.pdf';
+import cv from '../../cv/CV-VitaliiSpeka.pdf';
 
 const SideBar = ({ contacts, techSkills, softSkills, langueages }) => {
   return (

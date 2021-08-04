@@ -14,7 +14,6 @@ import education from './data/education.json';
 function App() {
   return (
     <div className={style.wrapper}>
-      {/* <h2>Hello it is my CV</h2> */}
       <SideBar
         contacts={contacts}
         techSkills={techSkills}
