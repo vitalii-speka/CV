@@ -1,6 +1,5 @@
 import './index.scss';
 import SideBar from './Componets/SideBar/SideBar';
-
 import contacts from './data/contacts.json';
 import techSkills from './data/techSkills.json';
 import softSkills from './data/softSkills.json';
@@ -10,6 +9,7 @@ import AboytMe from './Componets/AboutMe/AboutMe.jsx';
 import comandProjects from './data/comandProjects.json';
 import ownProjects from './data/ownProjects.json';
 import experience from './data/experience.json';
+import education from './data/education.json';
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
         comandProjects={comandProjects}
         ownProjects={ownProjects}
         experience={experience}
+        education={education}
       />
     </div>
   );

@@ -2,7 +2,7 @@ import style from './AboutMe.module.scss';
 import Project from '../Projects/Projects';
 import Experience from '../Experience/Experience';
 
-function AboutMe({ comandProjects, ownProjects, experience }) {
+function AboutMe({ comandProjects, ownProjects, experience, education }) {
   return (
     <div className={style.AboutMe__container}>
       <div className={style.AboutMe__section}>
@@ -55,6 +55,22 @@ function AboutMe({ comandProjects, ownProjects, experience }) {
               />
             ),
           )}
+        </ul>
+      </div>
+
+      <div className={style.AboutMe__section}>
+        <h3 className={style.AboutMe__title}>Educatin</h3>
+
+        <ul className={style.AboutMe__list}>
+          {education.map(({ id, university, label, time, experience }) => (
+            <Experience
+              id={id}
+              university={university}
+              label={label}
+              time={time}
+              experience={experience}
+            />
+          ))}
         </ul>
       </div>
     </div>
