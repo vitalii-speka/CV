@@ -11,9 +11,9 @@ function Project({ label, link, tech }) {
       >
         {label}
       </a>
-      <span class="dots">...........................</span>
+      <span className={style.Project__dots}>...........................</span>
       <span>
-        <b>[</b> <span class="tech-name">{tech}</span>
+        <b>[</b> <span className={style.Project__techName}>{tech}</span>
         <b> ]</b>
       </span>
     </li>

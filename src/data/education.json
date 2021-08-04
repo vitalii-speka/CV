@@ -4,34 +4,34 @@
     "university": "IT School GoIT",
     "label": "Front-End Developer",
     "time": "MAY 2020 - JUN 2021",
-    "experiences": [
+    "experience": [
       {
         "id": "1",
         "label": "Teamwork experience"
       },
       {
         "id": "2",
-        "duty": "Experience with code versioning tools (such as Git)"
+        "label": "Experience with code versioning tools (such as Git)"
       },
       {
         "id": "3",
-        "duty": "The layout of the web pages with clea cross-browser valid code using Figma."
+        "label": "The layout of the web pages with clea cross-browser valid code using Figma."
       },
       {
         "id": "4",
-        "duty": "Experience in web application development using JavaScript."
+        "label": "Experience in web application development using JavaScript."
       },
       {
         "id": "5",
-        "duty": "Developing new user-facing features using React.js"
+        "label": "Developing new user-facing features using React.js"
       },
       {
         "id": "6",
-        "duty": "Experience in creating a REST API for working with a collection."
+        "label": "Experience in creating a REST API for working with a collection."
       },
       {
         "id": "7",
-        "duty": "Experience in back-end development using Node.js and MongoDB."
+        "label": "Experience in back-end development using Node.js and MongoDB."
       }
     ]
   },

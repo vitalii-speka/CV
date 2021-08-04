@@ -1,9 +1,9 @@
 import style from './AboutMe.module.scss';
 import Project from '../Projects/Projects';
 import Experience from '../Experience/Experience';
+import Education from '../Education/Education';
 
 function AboutMe({ comandProjects, ownProjects, experience, education }) {
-  console.log(experience);
   return (
     <div className={style.AboutMe__container}>
       <div className={style.AboutMe__section}>
@@ -59,21 +59,21 @@ function AboutMe({ comandProjects, ownProjects, experience, education }) {
         </ul>
       </div>
 
-      {/* <div className={style.AboutMe__section}>
-        <h3 className={style.AboutMe__title}>Educatin</h3>
+      <div className={style.AboutMe__section}>
+        <h3 className={style.AboutMe__title}>Education</h3>
 
         <ul className={style.AboutMe__list}>
-          {education.map(({ id, university, label, time, experiences }) => (
-            <Experience
+          {education.map(({ id, university, label, time, experience }) => (
+            <Education
               key={id}
               university={university}
               label={label}
               time={time}
-              experiences={experiences}
+              experience={experience}
             />
           ))}
         </ul>
-      </div> */}
+      </div>
     </div>
   );
 }
