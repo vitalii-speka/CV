@@ -1,40 +1,30 @@
 @import '../../Utils/utils.scss';
 
-.body-collor {
-  background: #f5f7fa;
-
-  // padding-top: 40px;
-  // padding-bottom: 40px;
-  // padding-left: 20px;
-  // padding-right: 20px;
-  // font-family: Montserrat;;
-}
-
 .sideBar {
-  background: #1e2939;
-  width: 370px;
+  background: $bg-color-sidebar;
+  min-width: 370px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 .SideBar__foto {
-  // @extend %img-styles;
+  @extend %img-styles;
 
-  width: 370px;
-  // height: 500px;
+  // width: 370px;
+  height: auto;
 }
 
 .SideBar__section {
-  @extend %container-styles;
-  // padding-left: 40px;
-  // padding-right: 40px;
-  // padding-top: 60px;
+  // @extend %container-styles;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
 }
 
 .SideBar__title {
-  color: #ffffff;
+  color: $white-color;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 24px;
   margin-bottom: 15px;
 }

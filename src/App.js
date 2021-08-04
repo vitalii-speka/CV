@@ -13,19 +13,21 @@ import education from './data/education.json';
 
 function App() {
   return (
-    <div className={style.wrapper}>
-      <SideBar
-        contacts={contacts}
-        techSkills={techSkills}
-        softSkills={softSkills}
-        langueages={langueages}
-      />
-      <AboytMe
-        comandProjects={comandProjects}
-        ownProjects={ownProjects}
-        experience={experience}
-        education={education}
-      />
+    <div className={style.body}>
+      <div className={style.wrapper}>
+        <SideBar
+          contacts={contacts}
+          techSkills={techSkills}
+          softSkills={softSkills}
+          langueages={langueages}
+        />
+        <AboytMe
+          comandProjects={comandProjects}
+          ownProjects={ownProjects}
+          experience={experience}
+          education={education}
+        />
+      </div>
     </div>
   );
 }
