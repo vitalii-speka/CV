@@ -3,6 +3,7 @@ import Project from '../Projects/Projects';
 import Experience from '../Experience/Experience';
 
 function AboutMe({ comandProjects, ownProjects, experience, education }) {
+  console.log(experience);
   return (
     <div className={style.AboutMe__container}>
       <div className={style.AboutMe__section}>
@@ -24,7 +25,7 @@ function AboutMe({ comandProjects, ownProjects, experience, education }) {
         </h4>
         <ol className={style.AboutMe__list}>
           {comandProjects.map(({ id, label, link, tech }) => (
-            <Project id={id} label={label} link={link} tech={tech} />
+            <Project key={id} label={label} link={link} tech={tech} />
           ))}
         </ol>
 
@@ -34,7 +35,7 @@ function AboutMe({ comandProjects, ownProjects, experience, education }) {
         </h4>
         <ol className={style.AboutMe__list}>
           {ownProjects.map(({ id, label, link, tech }) => (
-            <Project id={id} label={label} link={link} tech={tech} />
+            <Project key={id} label={label} link={link} tech={tech} />
           ))}
         </ol>
       </div>
@@ -46,7 +47,7 @@ function AboutMe({ comandProjects, ownProjects, experience, education }) {
           {experience.map(
             ({ id, profession, company, time, country, duties }) => (
               <Experience
-                id={id}
+                key={id}
                 profession={profession}
                 company={company}
                 time={time}
@@ -58,21 +59,21 @@ function AboutMe({ comandProjects, ownProjects, experience, education }) {
         </ul>
       </div>
 
-      <div className={style.AboutMe__section}>
+      {/* <div className={style.AboutMe__section}>
         <h3 className={style.AboutMe__title}>Educatin</h3>
 
         <ul className={style.AboutMe__list}>
-          {education.map(({ id, university, label, time, experience }) => (
+          {education.map(({ id, university, label, time, experiences }) => (
             <Experience
-              id={id}
+              key={id}
               university={university}
               label={label}
               time={time}
-              experience={experience}
+              experiences={experiences}
             />
           ))}
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }

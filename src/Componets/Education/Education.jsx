@@ -11,7 +11,7 @@ function Education({ university, label, time, experience }) {
       {experience && (
         <ul className={style.Education__list}>
           {experience.map(({ id, label }) => (
-            <li id={id} className={style.Education__duty}>
+            <li key={id} className={style.Education__duty}>
               {label}
             </li>
           ))}

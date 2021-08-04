@@ -13,7 +13,7 @@ function Experience({ profession, company, time, country, duties }) {
       </span>
       <ul>
         {duties.map(({ id, duty }) => (
-          <li id={id} className={style.Experience__duty}>
+          <li key={id} className={style.Experience__duty}>
             {duty}
           </li>
         ))}
