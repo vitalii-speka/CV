@@ -39,9 +39,8 @@
 }
 
 .AboutMe__subTitle {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
+  @extend %s16w700h24;
+
   margin-top: 10px;
   margin-bottom: 15px;
 }

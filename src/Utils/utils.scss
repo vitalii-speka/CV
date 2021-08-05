@@ -9,12 +9,12 @@ $bg-color: #f5f7fa;
 $bg-color-sidebar: #1e2939;
 $text-color-description: #595959;
 $text-color-time: #a8a8a8;
+$black-color: #000000;
 
 $main-color: #242a37;
 $card-bg-color: #15395a;
 $hover-color: #00d7ff;
 $secondary-text: #b9c3c8;
-$bold-text: #000000;
 $button-color: #ff851c;
 $cancel-button: #24d40c;
 $delete-button: #db0938;
@@ -102,5 +102,11 @@ $animation-timing: 0.3s ease-in-out;
 %s14w400h24 {
   font-size: 14px;
   font-weight: 400;
+  line-height: 24px;
+}
+
+%s16w700h24 {
+  font-size: 16px;
+  font-weight: 700;
   line-height: 24px;
 }

@@ -1,1 +1,17 @@
 @import '../../Utils/utils.scss';
+
+.Education__li {
+  @extend %list-throw;
+}
+
+.Education__university {
+  @extend %s16w700h24;
+
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.Education__label {
+  color: $active-color;
+  margin-left: 5px;
+}

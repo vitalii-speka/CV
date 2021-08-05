@@ -38,6 +38,7 @@
   {
     "id": "id-2",
     "university": "Cherkasy State Technological University",
+    "label": "Engineer",
     "company": "Electrical Enginee",
     "time": "Sept 2005 - Jun 2010",
     "experience": null

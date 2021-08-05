@@ -2,10 +2,10 @@ import style from './Education.module.scss';
 
 function Education({ university, label, time, experience }) {
   return (
-    <li className={style.Education__item}>
-      <h4>
+    <li className={style.Education__li}>
+      <h4 className={style.Education__university}>
         {university}
-        <span className={style.Education__tileCompany}>{label}</span>
+        <span className={style.Education__label}>{label}</span>
       </h4>
       <span className={style.Education__time}>{time}</span>
       {experience && (
