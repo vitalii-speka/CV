@@ -1,17 +1,5 @@
 @import '../../Utils/utils.scss';
 
-.AboutMe_li {
-  color: $active-color;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-left: 15px;
-}
-
-.AboutMe__span {
-  color: $white-color;
-}
-
 .AboutMe__container {
   padding-left: 90px;
   padding-right: 90px;
@@ -37,22 +25,41 @@
 }
 
 .AboutMe__description {
-  color: #595959;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
+  color: $text-color-description;
+  @extend %s14w400h24;
+
   margin-top: 0px;
 }
 
-// .AboutMe__section {
-// }
-// .AboutMe__title {
-// }
-// .AboutMe__subTitle {
-// }
+.AboutMe__title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.AboutMe__subTitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
 .AboutMe__typeProject {
   color: $active-color;
   margin-right: 5px;
 }
 // .AboutMe__list {
 // }
+
+.AboutMe_li {
+  color: $active-color;
+  @extend %s14w400h24;
+
+  margin-left: 15px;
+}
+
+.AboutMe__span {
+  color: $white-color;
+}

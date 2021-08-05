@@ -19,7 +19,7 @@ function AboutMe({ comandProjects, ownProjects, experience, education }) {
       </div>
 
       <div className={style.AboutMe__section}>
-        <h3 className={style.AboutMe__title}>Peoject</h3>
+        <h3 className={style.AboutMe__title}>Project</h3>
         <h4 className={style.AboutMe__subTitle}>
           <span className={style.AboutMe__typeProject}>Teamwork</span>project
         </h4>
@@ -29,7 +29,6 @@ function AboutMe({ comandProjects, ownProjects, experience, education }) {
           ))}
         </ol>
 
-        <h3 className={style.AboutMe__title}>Peoject</h3>
         <h4 className={style.AboutMe__subTitle}>
           <span className={style.AboutMe__typeProject}>Own</span>project
         </h4>
