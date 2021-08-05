@@ -9,9 +9,9 @@ function Education({ university, label, time, experience }) {
       </h4>
       <span className={style.Education__time}>{time}</span>
       {experience && (
-        <ul className={style.Education__list}>
+        <ul className={style.Education__duties}>
           {experience.map(({ id, label }) => (
-            <li key={id} className={style.Education__duty}>
+            <li key={id} className={style.Education__dutiesItem}>
               {label}
             </li>
           ))}

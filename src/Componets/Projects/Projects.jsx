@@ -2,9 +2,9 @@ import style from './Projects.module.scss';
 
 function Project({ label, link, tech }) {
   return (
-    <li className={style.Project__li}>
+    <li className={style.Project__projectsItem}>
       <a
-        className={style.Project__link}
+        className={style.Project__projectsName}
         href={link}
         target="_blank"
         rel="noreferrer"
