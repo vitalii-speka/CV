@@ -7,7 +7,9 @@ function AboutMe({ comandProjects, ownProjects, experience, education }) {
   return (
     <div className={style.AboutMe__container}>
       <div className={style.AboutMe__section}>
-        <h2 className={style.AboutMe__professionText}>Front-End Developer</h2>
+        <h2 className={style.AboutMe__professionText}>
+          Front-End (REACT) Developer
+        </h2>
         <h1 className={style.AboutMe__nameInfo}>Vitalii Speka</h1>
 
         <p className={style.AboutMe__description}>
