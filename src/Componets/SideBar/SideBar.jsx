@@ -45,7 +45,7 @@ const SideBar = ({ contacts, techSkills, softSkills, langueages }) => {
           ))}
         </ul>
       </div>
-      <div className={style.SideBar__section}>
+      <div className={style.SideBar__buttonDownload}>
         <a
           className={style.SideBar__link}
           href={cv}

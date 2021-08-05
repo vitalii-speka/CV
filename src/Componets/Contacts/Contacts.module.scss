@@ -7,16 +7,16 @@
 .Contacts__link {
   @extend %link-throw;
 
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 24px;
-  color: #fff;
-  margin-right: 10px;
+  @extend %s14w400h24;
+
+  color: $white-color;
+  display: flex;
+  margin-bottom: 7px;
 }
 
 .Contacts__icon {
   width: 25px;
   height: 25px;
 
-  margin-right: 5px;
+  margin-right: 10px;
 }

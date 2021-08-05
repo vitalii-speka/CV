@@ -18,7 +18,7 @@
   // @extend %container-styles;
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 60px;
+  padding-top: 55px;
 }
 
 .SideBar__title {
@@ -31,4 +31,38 @@
 
 .SideBar__ul {
   @extend %link-throw;
+}
+
+.SideBar__buttonDownload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 55px;
+}
+
+.SideBar__link {
+  animation: $animation-timing;
+
+  border: 1px solid $active-color;
+  color: $white-color;
+  // color: $active-color;
+  // font-size: 16px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 14px 18px;
+  margin-right: 10px;
+  margin-top: 3px;
+  display: block;
+  float: right;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.SideBar__link:hover {
+  animation: $animation-timing;
+  background-color: $active-color; /* Green */
+  color: white;
+  border: 1px solid $white-color;
 }

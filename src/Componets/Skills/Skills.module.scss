@@ -2,9 +2,7 @@
 
 .Skills__li {
   color: $active-color;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
+  @extend %s14w400h24;
   margin-left: 15px;
 }
 
