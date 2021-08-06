@@ -42,8 +42,6 @@
 }
 
 .SideBar__link {
-  animation: $animation-timing;
-
   border: 1px solid $active-color;
   color: $white-color;
   // color: $active-color;
@@ -61,7 +59,7 @@
 }
 
 .SideBar__link:hover {
-  animation: $animation-timing;
+  transition: $animation-timing;
   background-color: $active-color; /* Green */
   color: white;
   border: 1px solid $white-color;

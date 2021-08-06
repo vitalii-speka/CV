@@ -40,5 +40,12 @@
     "icon": "icon-viber",
     "link": "viber://chat?number=%2B380937404228",
     "text": "Viber"
+  },
+  {
+    "id": "id-7",
+    "label": "address",
+    "icon": "icon-location2",
+    "link": "viber://chat?number=%2B380937404228",
+    "text": "Cherkasy, Ukraine"
   }
 ]
