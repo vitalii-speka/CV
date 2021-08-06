@@ -41,10 +41,17 @@
   margin-top: 55px;
 }
 
+.SideBar__buttonDownload:focus {
+  fill: red;
+}
+
 .SideBar__link {
-  border: 1px solid $active-color;
+  display: flex;
+  align-items: center;
+
+  border: 3px solid $active-color;
   color: $white-color;
-  // color: $active-color;
+  background-color: $active-color;
   // font-size: 16px;
   font-size: 18px;
   font-weight: 400;
@@ -52,15 +59,28 @@
   padding: 14px 18px;
   margin-right: 10px;
   margin-top: 3px;
-  display: block;
+  // display: block;
   float: right;
   border-radius: 25px;
   text-decoration: none;
 }
 
-.SideBar__link:hover {
+.SideBar__link:hover,
+.SideBar__link:focus {
   transition: $animation-timing;
-  background-color: $active-color; /* Green */
-  color: white;
-  border: 1px solid $white-color;
+  background-color: $bg-color-sidebar;
+  color: $active-color;
+  border: 3px solid $active-color;
 }
+
+.SideBar__icon {
+  width: 25px;
+  height: 25px;
+  fill: $bg-color;
+  margin-right: 15px;
+}
+
+// .SideBar__icon:hover {
+//   // fill: $active-color;
+//   fill: currentColor;
+// }

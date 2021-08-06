@@ -14,7 +14,8 @@
   margin-bottom: 7px;
 }
 
-.Contacts__link:hover {
+.Contacts__link:hover,
+.Contacts__link:focus {
   color: $active-color;
   transition: $animation-timing;
 }
@@ -25,3 +26,8 @@
 
   margin-right: 10px;
 }
+// .Contacts__icon:hover,
+// .Contacts__icon:focus {
+//   width: 30px;
+//   height: 30px;
+// }

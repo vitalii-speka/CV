@@ -4,6 +4,7 @@ import Contacts from '../Contacts/Contacts';
 import Skills from '../Skills/Skills';
 import Langueages from '../Langueages/Langueages';
 import cv from '../../cv/CV-VitaliiSpeka.pdf';
+import sprite from '../../image/symbol-defs.svg';
 
 const SideBar = ({ contacts, techSkills, softSkills, langueages }) => {
   return (
@@ -52,6 +53,9 @@ const SideBar = ({ contacts, techSkills, softSkills, langueages }) => {
           target="_blank"
           rel="noreferrer"
         >
+          <svg className={style.SideBar__icon}>
+            <use href={`${sprite}#${'icon-folder-download'}`}></use>
+          </svg>
           Download CV
         </a>
       </div>
